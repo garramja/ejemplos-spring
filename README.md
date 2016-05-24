@@ -1,6 +1,6 @@
 # Ejemplos de SPRING
 
-Ejemplos realizados a partir de la charla realizada por [iperez](https://github.com/ipalbeniz/charla-spring).
+Ejemplos realizados a partir de la charla realizada por [ipalbeniz](https://github.com/ipalbeniz/charla-spring).
 
 ### 01-app-sin-spring
 Se trata de un módulo simple sin ningún tipo de configuración. Tiene los típicos paquetes
@@ -32,7 +32,7 @@ Se trata de un módulo simple con configuración spring en una clase. Tiene los 
 
 En este módulo, en comaración con el anterior, no existe el xml de configuración para los beans, sino que se ha creado un paquete de configuración y una clase que su objetivo es definir los beans. Se anota la clase como @Configuration y se crean 2 métodos anotados como @Bean que devolverán instancias de los objetos correspondientes. Posteriormente, en la clase DemoApp, la manera de obtener el ApplicationContext es diferente ya qu en vez de hacerlo a partir del archivo de configuración xml, se hace a partir de la clase anotada como @Configuration.
 
-### Como ejecutar y probar los módulos
+### Cómo ejecutar y probar los módulos
 Existe la clase DemoApp para ver la ejecución del Servicio:
 > \src\main\java\DemoApp.java
 
