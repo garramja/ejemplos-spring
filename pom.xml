@@ -15,6 +15,7 @@
         <module>02-app-sin-spring-ioc</module>
         <module>03-app-spring-xml-beans</module>
         <module>04-app-spring-java-beans</module>
+        <module>09-app-spring-job</module>
     </modules>
 
     <properties>

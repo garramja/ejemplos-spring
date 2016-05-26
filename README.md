@@ -32,6 +32,10 @@ Se trata de un módulo simple con configuración spring en una clase. Tiene los 
 
 En este módulo, en comaración con el anterior, no existe el xml de configuración para los beans, sino que se ha creado un paquete de configuración y una clase que su objetivo es definir los beans. Se anota la clase como @Configuration y se crean 2 métodos anotados como @Bean que devolverán instancias de los objetos correspondientes. Posteriormente, en la clase DemoApp, la manera de obtener el ApplicationContext es diferente ya qu en vez de hacerlo a partir del archivo de configuración xml, se hace a partir de la clase anotada como @Configuration.
 
+### 09-app-spring-job
+Aplicación para probar las tareas programadas con @Scheduled ademas de configuración para obtener las propiedades de ficheros properties.ç
+Se puede probar con spring boot ejecutando el comando mvn spring-boot:run
+
 ### Cómo ejecutar y probar los módulos
 Existe la clase DemoApp para ver la ejecución del Servicio:
 > \src\main\java\DemoApp.java
