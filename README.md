@@ -32,6 +32,9 @@ Se trata de un módulo simple con configuración spring en una clase. Tiene los 
 
 En este módulo, en comaración con el anterior, no existe el xml de configuración para los beans, sino que se ha creado un paquete de configuración y una clase que su objetivo es definir los beans. Se anota la clase como @Configuration y se crean 2 métodos anotados como @Bean que devolverán instancias de los objetos correspondientes. Posteriormente, en la clase DemoApp, la manera de obtener el ApplicationContext es diferente ya qu en vez de hacerlo a partir del archivo de configuración xml, se hace a partir de la clase anotada como @Configuration.
 
+### 07-app-spring-mongo
+Ejemplo de cómo se pueden utilizar las anotaciones explicitas @EnableMongoRepositories o bien con lo subpaquetes de @SpringBootApplication para guardar entidades en una db nosql Mongo.
+
 ### 08-app-spring-cache
 En este módulo, se puede ver el uso que se puede hace de las caches con Spring. Se emula atacando a métodos de servicio en los que hay que estan cacheados y tiene emulación de dalays. Al contrario que los que no estan cacheados con delay, se ve que una vez se existe el objeto en cache, no pasa por el método de delay, sino que lo coge de caché.
 

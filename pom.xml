@@ -17,6 +17,7 @@
         <module>04-app-spring-java-beans</module>
         <module>09-app-spring-job</module>
         <module>08-app-spring-cache</module>
+        <module>07-app-spring-mongo</module>
     </modules>
 
     <properties>
